@@ -24,9 +24,6 @@ jobs:
       - name: Build Next.js
         run: npm run build
 
-      - name: Export static site
-        run: npm run export
-
       - name: Deploy to S3
         run: aws s3 sync ./out s3://eugen-static-site-demo --delete
         env:
