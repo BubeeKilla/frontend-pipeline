@@ -14,6 +14,8 @@ export default function Home() {
           priority
         />
         <ol>
+          <li>Hello Benito</li>
+          <li>This site is auto-deployed via my frontend pipeline.</li>
           <li>
             Get started by editing <code>src/app/page.js</code>.
           </li>
